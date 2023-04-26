@@ -61,7 +61,7 @@
             
             for (int i = 0;i<2;i++)
             {
-                if (Stall[Input_Num[i]]=='X')
+                if (Stall[Input_Num[i]-1]=='X')
                 {
                     Stall_Reseved(true);
                     StallIsReseved = true;
